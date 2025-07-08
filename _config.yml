@@ -1,0 +1,49 @@
+# _config.yml
+
+# Site settings
+title: My Personal Website
+description: >-
+  This is my personal website created with GitHub Pages and Jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mdniazc.github.io" # the base hostname & protocol
+
+# Author settings
+author:
+  name: Niaz Murshed Chowdhury
+  email: niaz.chowdhury9045@gmail.com
+
+# Build settings
+theme: minima # or another supported Jekyll theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional: Google Analytics
+google_analytics: UA-XXXXXXXXX-X
+
+# Markdown processor
+markdown: kramdown
+
+# Permalinks
+permalink: pretty
+
+# Exclude these files from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include additional files in the build
+include:
+  - _pages
+
+# Social links (optional, for themes that support them)
+social_links:
+  twitter: yourtwitterhandle
+  github: mdniazc
+  linkedin: https://www.linkedin.com/in/niaz-murshed-chowdhury-phd-a8653572/
+
+# Collections (optional, for custom pages/posts)
+collections:
+  portfolio:
+    output: true
